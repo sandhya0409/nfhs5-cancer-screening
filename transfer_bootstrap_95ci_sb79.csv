@@ -1,0 +1,6 @@
+,Logistic regression,Gradient boosting
+"ROC-AUC, trained on rural (home)","0.769  [0.740, 0.796]","0.764  [0.738, 0.791]"
+"ROC-AUC, trained on urban (transfer)","0.771  [0.742, 0.796]","0.762  [0.732, 0.790]"
+AUC drop (home minus transfer),"-0.001  [-0.014, 0.011]","0.003  [-0.013, 0.019]"
+"Predicted/observed, trained on rural","1.128  [1.000, 1.275]","1.093  [0.966, 1.233]"
+"Predicted/observed, trained on urban","1.026  [0.914, 1.158]","1.045  [0.924, 1.183]"

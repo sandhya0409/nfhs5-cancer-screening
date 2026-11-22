@@ -1,0 +1,18 @@
+# NEVER upload DHS / NFHS microdata or DHS documentation files
+*.dta
+*.DTA
+*.do
+*.DO
+*.dct
+*.DCT
+*.sav
+*.SAV
+*.sas7bdat
+*.pkl
+*.zip
+*.ZIP
+data/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/

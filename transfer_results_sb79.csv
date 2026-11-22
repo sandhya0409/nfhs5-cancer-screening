@@ -1,0 +1,7 @@
+Model,Train -> Test,ROC-AUC,PR-AUC,Brier,Observed %,Predicted %,Predicted / observed
+Logistic regression,Urban -> Urban (home),0.7823,0.0873,0.0247,2.6313,2.226,0.846
+Logistic regression,Rural -> Rural (home),0.7695,0.0612,0.0156,1.6201,1.8273,1.1279
+Logistic regression,Urban -> Rural (transfer),0.7706,0.0607,0.0156,1.6201,1.6625,1.0261
+Gradient boosting,Urban -> Urban (home),0.7584,0.0746,0.0252,2.6313,2.2202,0.8438
+Gradient boosting,Rural -> Rural (home),0.7645,0.0535,0.016,1.6201,1.77,1.0925
+Gradient boosting,Urban -> Rural (transfer),0.7619,0.054,0.0159,1.6201,1.6931,1.045
